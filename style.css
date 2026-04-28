@@ -201,12 +201,13 @@ nav i{
 
 
 #pepsi{
-    top: -15%;
+    top: -10%;
     position: absolute;
-    width: 85%;
+    width: 105%;
     left: 50%;
     transform: translate(-50%, 0%);
 }
+
 
 .lemon{
     top: -30%;
