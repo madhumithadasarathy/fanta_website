@@ -1,3 +1,8 @@
+gsap.set(".lemon1", { rotate: "-90deg", left: "-100%", top: "110%" });
+gsap.set("#cocacola", { rotate: "-90deg", top: "110%", left: "-100%" });
+gsap.set(".lemon2", { rotate: "90deg", left: "100%", top: "110%" });
+gsap.set("#pepsi", { rotate: "90deg", top: "110%", left: "100%" });
+
 var tl = gsap.timeline({scrollTrigger:{
     trigger: ".two",
     start: "0% 95%",
@@ -39,27 +44,29 @@ var tl2 = gsap.timeline({scrollTrigger:{
     // markers: true,
 }})
 
-tl2.from(".lemon1",{
-    rotate: "-90deg",
-    left: "-100%",
-    top: "110%"
+
+tl2.to(".lemon1",{
+    rotate: "0deg",
+    left: "50%",
+    top: "-30%"
 }, 'ca')
-tl2.from("#cocacola",{
-    rotate: "-90deg",
-    top: "110%",
-    left: "-100%",
+tl2.to("#cocacola",{
+    rotate: "0deg",
+    top: "-15%",
+    left: "50%",
 }, 'ca')
 
-tl2.from(".lemon2",{
-    rotate: "90deg",
-    left: "100%",
-    top: "110%"
+tl2.to(".lemon2",{
+    rotate: "0deg",
+    left: "50%",
+    top: "-30%"
 }, 'ca')
-tl2.from("#pepsi",{
-    rotate: "90deg",
-    top: "110%",
-    left: "100%",
+tl2.to("#pepsi",{
+    rotate: "0deg",
+    top: "-15%",
+    left: "50%",
 }, 'ca')
+
 
 tl2.to("#orange-cut",{
     width:"18%",

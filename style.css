@@ -72,7 +72,7 @@ nav i{
     position: absolute;
     width: 40%;
     z-index: 2;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    z-index: 2;
 }
 
 #orange-cut{
@@ -81,8 +81,6 @@ nav i{
     left: 32%;
     width: 15%;
     z-index: 1;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
-
 }
 
 #orange{
@@ -91,8 +89,6 @@ nav i{
     z-index: 3;
     top: 55%;
     right: 30%;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
-
 }
 
 #leaf{
@@ -101,8 +97,6 @@ nav i{
     transform: rotate(60deg);
     position: absolute;
     width: 18%;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
-
 }
 
 #leaf2{
@@ -111,9 +105,8 @@ nav i{
     transform: rotate(-90deg);
     position: absolute;
     width: 12%;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
-
 }
+
 
 #leaf3{
     position: absolute;
@@ -200,8 +193,6 @@ nav i{
     width: 60%;
     left: 50%;
     transform: translate(-50%, 0%);
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
-
 }
 
 #pepsi{
@@ -210,8 +201,6 @@ nav i{
     width: 85%;
     left: 50%;
     transform: translate(-50%, 0%);
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
-
 }
 
 .lemon{
@@ -220,5 +209,5 @@ nav i{
     left: 50%;
     width: 25vw;
     transform: translate(-50%, 0%);
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 }
+
