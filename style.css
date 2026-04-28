@@ -190,12 +190,13 @@ nav i{
 }
 
 #cocacola{
-    top: -15%;
+    top: -10%;
     position: absolute;
-    width: 95%;
+    width: 105%;
     left: 50%;
     transform: translate(-50%, 0%);
 }
+
 
 
 
