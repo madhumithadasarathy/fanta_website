@@ -192,10 +192,11 @@ nav i{
 #cocacola{
     top: -15%;
     position: absolute;
-    width: 85%;
+    width: 95%;
     left: 50%;
     transform: translate(-50%, 0%);
 }
+
 
 
 #pepsi{
