@@ -121,7 +121,7 @@ nav i{
     display: flex;
     width: 100%;
     height: 100vh;
-    background:#4d231c ;
+    background: radial-gradient(circle at 20% 50%, #8a2e1a 0%, #4a1d14 65%, #2b100c 100%);
 }
 
 .lft-two, .rght-two{
@@ -203,7 +203,7 @@ nav i{
 #pepsi{
     top: -22%;
     position: absolute;
-    width: 120%;
+    width: 125%;
     left: 50%;
     transform: translate(-50%, 0%);
 }
