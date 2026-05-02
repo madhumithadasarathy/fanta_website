@@ -233,27 +233,30 @@ nav i{
 .four{
     width: 100%;
     height: 100vh;
-    background-color: #111;
+    background-color: #000;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: flex-start;
-    padding: 0 10vw;
+    padding: 10vh 10vw;
+    position: relative;
+    z-index: 1;
 }
 
 .left-four{
-    width: 40%;
+    width: 45%;
 }
 
 .left-four h1{
     color: #fff;
-    font-size: 5vw;
+    font-size: 6vw;
     font-family: Product Sans B;
-    line-height: 1.1;
-    margin-bottom: 2vh;
+    line-height: 1;
+    margin-bottom: 3vh;
+    text-transform: uppercase;
 }
 
 .left-four p{
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 1.2vw;
-    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1vw;
+    line-height: 1.7;
 }
