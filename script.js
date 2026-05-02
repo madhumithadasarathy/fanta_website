@@ -63,7 +63,7 @@ tl2.to(".lemon2",{
 }, 'ca')
 tl2.to("#pepsi",{
     rotate: "0deg",
-    top: "-15%",
+    top: "-35%",
     left: "50%",
 }, 'ca')
 
