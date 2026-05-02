@@ -230,33 +230,28 @@ nav i{
     transform: translate(-50%, 0%);
 }
 
-.four{
-    width: 100%;
-    height: 100vh;
-    background-color: #000;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: 10vh 10vw;
-    position: relative;
-    z-index: 1;
+.four {
+  height: 100vh;
+  position: relative;
+  background: #751400;
+  display: flex;
+  align-items: flex-end;
+  padding: 5% 8%;
 }
 
-.left-four{
-    width: 45%;
+.left-four {
+  max-width: 400px;
+  color: white;
 }
 
-.left-four h1{
-    color: #fff;
-    font-size: 6vw;
-    font-family: Product Sans B;
-    line-height: 1;
-    margin-bottom: 3vh;
-    text-transform: uppercase;
+.left-four h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 2vh;
 }
 
-.left-four p{
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 1.1vw;
-    line-height: 1.7;
+.left-four p {
+  opacity: 0.85;
+  line-height: 1.6;
+  font-size: 1.1rem;
 }
