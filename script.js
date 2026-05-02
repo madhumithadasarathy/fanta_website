@@ -21,8 +21,8 @@ tl.to("#orange-cut",{
 }, 'orange')
 tl.to("#orange",{
     width: "15%",
-    top:"160%",
-    right: "10%"
+    top:"165%",
+    right: "15%"
 }, 'orange')
 tl.to("#leaf",{
     top:"110%",
