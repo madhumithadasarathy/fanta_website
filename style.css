@@ -151,7 +151,9 @@ nav i{
 
 .rght-two p{
     font-size: 1vw;
-    color: #fff;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.6;
+    max-width: 500px;
     width: 80%;
 }
 
