@@ -74,7 +74,7 @@ nav i{
     position: absolute;
     width: 40%;
     z-index: 2;
-    z-index: 2;
+    filter: drop-shadow(0 0 50px rgba(255, 140, 0, 0.4));
 }
 
 #orange-cut{
