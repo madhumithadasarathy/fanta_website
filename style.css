@@ -143,6 +143,10 @@ nav i{
 .rght-two h1{
     color: #fff;
     font-size: 5vw;
+    font-family: Product Sans B;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
 .rght-two p{
