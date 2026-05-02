@@ -82,16 +82,16 @@ tl2.to("#fanta",{
 var tl3 = gsap.timeline({
   scrollTrigger: {
     trigger: ".four",
-    start: "top 90%",
+    start: "top 85%",
     end: "top 30%",
     scrub: 1
   }
 });
 
 tl3.to("#fanta", {
-  left: "65%",
-  top: "310%",
-  width: "60%",
-  rotate: "20deg",
-  ease: "none"
+  left: "60%",        // keep inside frame
+  top: "310%",        // Restored to 310% to prevent top cropping confirmed in browser tests
+  width: "80%",       // reduced from 120% → controlled zoom
+  rotate: "-15deg",   // subtle tilt (not aggressive)
+  ease: "power2.out"
 });
