@@ -78,3 +78,16 @@ tl2.to("#fanta",{
     top: "210%",
     left: "33%",
 }, 'ca')
+
+var tl3 = gsap.timeline({scrollTrigger:{
+    trigger: ".four",
+    start: "0% 95%",
+    end: "20% 50%",
+    scrub: true,
+}})
+
+tl3.to("#fanta",{
+    width: "40%",
+    top: "310%",
+    left: "65%",
+}, 'ca')
