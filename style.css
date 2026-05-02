@@ -233,7 +233,7 @@ nav i{
 .four {
   height: 100vh;
   position: relative;
-  background: #751400;
+  background: radial-gradient(circle, transparent 20%, rgba(0,0,0,0.7) 100%), #751400;
   display: flex;
   align-items: flex-end;
   padding: 5% 8%;
