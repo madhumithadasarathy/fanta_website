@@ -79,15 +79,19 @@ tl2.to("#fanta",{
     left: "33%",
 }, 'ca')
 
-var tl3 = gsap.timeline({scrollTrigger:{
+var tl3 = gsap.timeline({
+  scrollTrigger: {
     trigger: ".four",
-    start: "0% 95%",
-    end: "20% 50%",
-    scrub: true,
-}})
+    start: "top 90%",
+    end: "top 30%",
+    scrub: 1
+  }
+});
 
-tl3.to("#fanta",{
-    width: "40%",
-    top: "310%",
-    left: "65%",
-}, 'ca')
+tl3.to("#fanta", {
+  left: "65%",
+  top: "310%",
+  width: "60%",
+  rotate: "20deg",
+  ease: "none"
+});
